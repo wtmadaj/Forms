@@ -12,16 +12,19 @@ form {
 
 input[type=submit]{
   width: 100%;
-  background-color: #4CAF50;
+  /*background-color: #4CAF50;*/
+  background-color: #474747;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: large;
 }
 input[type=submit]:hover {
-  background-color: #45a049;
+  /*background-color: #45a049;*/
+  background-color: #6e6e6e;
 }
 
 input[type=text],[type=tel], textarea {
@@ -33,6 +36,7 @@ input[type=text],[type=tel], textarea {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
 
 .topnav {
   overflow: hidden;
