@@ -10,7 +10,7 @@ form {
   width: 800px;
 }
 
-input[type=submit] {
+input[type=submit]{
   width: 100%;
   background-color: #4CAF50;
   color: white;
@@ -24,7 +24,7 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-input[type=text] {
+input[type=text],[type=tel], textarea {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
