@@ -3,33 +3,39 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="basic.html">Basic</a></li>
+		<li><a class="active" href="SideNav.html">SideNav</a></li>
+		<li><a href="#about">About</a></li>
+	</ul>
 </head>
+
 <body>
 
-	<div class="topnav">
-		<a href="index.html">Home</a>
-		<a class="active" href="basic.html">Basic</a>
-		<a href="SideNav.html">SideNav</a>
-		<a href="#about">About</a>
-	</div>
-
-	<div style="padding:16px">
+	<div style="margin-left:25%; padding:16px">
 		<h2>Basic Form</h2>
 	</div>
 
 <!-- Type: form field type, id: for styling, name: for form submission -->
-	<form>
+<!-- Added margin-left to accommodate side nav -->
+	<form style="margin-left:25%"> 
 		<label for="first-name">First Name:</label>
 		<input type="text" id="first-name" name="first-name" placeholder="First Name">
 		<label for="last-name">Last Name:</label>
 		<input type="text" id="last-name" name="last-name" placeholder="Last Name"><br><br>
 
-		<input type="radio" id="male" name="gender" value="male">
-		<label for="male">Male</label><br>
-		<input type="radio" id="female" name="gender" value="female">
-		<label for="female">Female</label><br>
-		<input type="radio" id="other" name="gender" value="other">
-		<label for="other">Other</label><br><br>
+		<div class="custom-select">
+			<label for="gender">Gender</label>
+			<select id="gender" name="gender">
+				<option value="0">Select Gender</option>
+				<option value="1">Male</option>
+				<option value="2">Female</option>
+				<option value="3">Other</option>
+			</select>
+		</div><br><br>
+		<script src="select-script.js"></script> <!-- Script for the custom select div -->
 
 		<label for="phone">Phone Number:</label>
 		<input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
