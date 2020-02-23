@@ -182,7 +182,6 @@ li a:hover:not(.active) {
 }
 
 footer {
-  float: right;
   position: fixed;
   left: 0;
   bottom: 0;
