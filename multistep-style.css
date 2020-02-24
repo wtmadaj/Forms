@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: Raleway;
 }
 
 body {
   /*background-color: #555;*/
   background-color: #101010;
-  font-family: Raleway;
 }
 
 h2 {
@@ -17,7 +17,6 @@ h2 {
   background-color: #f2f2f2;
   margin: 100px auto;
   margin-left: 20%;
-  font-family: Raleway;
   padding: 40px;
   width: 70%;
   min-width: 300px;
@@ -33,7 +32,6 @@ input {
   margin: 10px;
   width: 100%;
   font-size: 17px;
-  font-family: Raleway;
   border: 1px solid #aaaaaa;
 }
 
@@ -53,7 +51,6 @@ button {
   border: none;
   padding: 10px 20px;
   font-size: 17px;
-  font-family: Raleway;
   cursor: pointer;
 }
 
@@ -115,4 +112,14 @@ li a.active {
 li a:hover:not(.active) {
   background-color: #555;
   color: white;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }

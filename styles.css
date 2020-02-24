@@ -2,12 +2,13 @@
   margin: 0; 
   padding: 0; 
   border: none; 
+  font-family: Montserrat;
+  font-size: 17px;
 }
 
 body {
   margin: 0;
   /*font-family: Arial, Helvetica, sans-serif;*/
-  font-family: Raleway;
 }
 
 form {
@@ -150,4 +151,53 @@ li a:hover:not(.active) {
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.image-container {
+  /*background-color: black;*/
+  background-image: url("ash-edmonds.jpg");
+  background-size: cover; 
+  position: relative; /* Needed to position the cutout text in the middle of the image */
+  height: 250px;
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 10vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 50%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+/* Style for the unsplash icon that gives credit to the photographer for image(s) */
+.unsplash-image-credit {
+  background-color:black;
+  color:white;
+  text-decoration:none;
+  padding:4px 6px;
+  margin-top: 5px;
+  font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  line-height:1.2;
+  display:inline-block;
+  border-radius:3px;
+  float: right;
+  border:1px solid white;
 }
