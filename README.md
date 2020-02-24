@@ -6,7 +6,8 @@
 		<li>Individual stylesheets per page</li>
 		<li>Different fonts on each page - noted in the footers</li>
 		<li>Cutout banner image on index page</li>
-		<li>Custom drop-down select menu courtesy of <a href="https://www.w3schools.com/howto/howto_custom_select.asp">w3Schools</a></li>
+		<li>Custom drop-down select menu</li>
+		<li>Check out <a href="https://www.w3schools.com">w3Schools</a> for more details on how to use these features</li>
 	</ul>
 
 <h4>Basic</h4>
