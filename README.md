@@ -1,6 +1,13 @@
 # Forms
 
 <h3>This project explores creating and styling forms in HTML, CSS, and JavaScript. Use the navigation bar to check them out!</h3><br>
+<h4>Overall Features</h4>
+	<ul>
+		<li>Individual stylesheets per page</li>
+		<li>Different fonts on each page - noted in the footers</li>
+		<li>Cutout banner image on index page</li>
+		<li>Custom drop-down select menu courtesy of <a href="https://www.w3schools.com/howto/howto_custom_select.asp">w3Schools</a></li>
+	</ul>
 
 <h4>Basic</h4>
 	<p>A basic form with simple styling. Pattern matching enforced.</p><br>
